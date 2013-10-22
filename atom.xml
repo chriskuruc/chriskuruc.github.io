@@ -4,7 +4,7 @@
   <title><![CDATA[My Octopress Blog]]></title>
   <link href="http://chriskuruc.github.io/atom.xml" rel="self"/>
   <link href="http://chriskuruc.github.io/"/>
-  <updated>2013-10-21T20:59:46-04:00</updated>
+  <updated>2013-10-21T21:17:53-04:00</updated>
   <id>http://chriskuruc.github.io/</id>
   <author>
     <name><![CDATA[Your Name]]></name>
@@ -12,5 +12,14 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Ready for blogging]]></title>
+    <link href="http://chriskuruc.github.io/blog/2013/10/21/ready-for-blogging/"/>
+    <updated>2013-10-21T21:08:00-04:00</updated>
+    <id>http://chriskuruc.github.io/blog/2013/10/21/ready-for-blogging</id>
+    <content type="html"><![CDATA[<p>Octopress is all set up and ready for blogging.  I&rsquo;m going to have to dig into what rake is actually doing, but for know some rote learning of commands seams to get me here.</p>
+]]></content>
+  </entry>
   
 </feed>
