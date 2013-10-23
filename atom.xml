@@ -4,7 +4,7 @@
   <title><![CDATA[Read Me, Maybe]]></title>
   <link href="http://chriskuruc.github.io/atom.xml" rel="self"/>
   <link href="http://chriskuruc.github.io/"/>
-  <updated>2013-10-23T13:37:54-04:00</updated>
+  <updated>2013-10-23T15:15:56-04:00</updated>
   <id>http://chriskuruc.github.io/</id>
   <author>
     <name><![CDATA[Chris Kuruc]]></name>
@@ -12,6 +12,76 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Working with Octopress]]></title>
+    <link href="http://chriskuruc.github.io/blog/2013/10/23/working-with-octopress/"/>
+    <updated>2013-10-23T14:35:00-04:00</updated>
+    <id>http://chriskuruc.github.io/blog/2013/10/23/working-with-octopress</id>
+    <content type="html"><![CDATA[<p>My work process.  And some pointers on where to get info on these things.  Pretty simple.</p>
+
+<ul>
+<li>Edit</li>
+<li>Generate</li>
+<li>Preview</li>
+<li>Commit it</li>
+<li>Deploy</li>
+<li>Repeat&hellip;</li>
+</ul>
+
+
+<h2>Edit</h2>
+
+<h3>New Posts and Pages</h3>
+
+<p>Use <code>rake new_post["title"]</code> or <code>rake new_page["path or path/title"]</code> and then edit the file that&rsquo;s created.</p>
+
+<p><a href="http://octopress.org/docs/blogging/">http://octopress.org/docs/blogging/</a></p>
+
+<h3>Header, Footer, Navigation Updates</h3>
+
+<p>These are sections of the site that are most likely to be customized. You can edit each html file in <code>/source/_includes/custom/</code> and your changes will be preserved across updates.</p>
+
+<p><a href="http://octopress.org/docs/theme/template/">http://octopress.org/docs/theme/template/</a></p>
+
+<h3>Site Configurations</h3>
+
+<p>It&rsquo;s all about the <code>_config.yml</code>.  It&rsquo;s in the root of your octopress directory.  There are three main sections to it.</p>
+
+<ul>
+<li>Main: Settings typical of html pages headers and footers</li>
+<li>Jekyll: All settings coming from Jekyll and define the way the site is built</li>
+<li>Third Party: octopress comes with a set of predefined links to external services, like Twitter and Facebook. In this section you can setup basic access settings to these services.</li>
+</ul>
+
+
+<p><a href="http://octopress.org/docs/configuring/">http://octopress.org/docs/configuring/</a></p>
+
+<h2>Generate</h2>
+
+<p><code>rake generate</code> generates your blog based on the edits you just made</p>
+
+<h2>Preview</h2>
+
+<p><code>rake preview</code> is pretty cool.  Run it and then navigate to <a href="http://localhost:4000">http://localhost:4000</a> to see your changes locally.  Sure beats waiting for the site to sync up remotely.</p>
+
+<h2>Commit</h2>
+
+<p>Like it?  Commit it.  The basics from the root of your octopress dir:</p>
+
+<pre><code>git add .
+git commit - m "your commit comment"
+git push
+</code></pre>
+
+<h2>Deploy</h2>
+
+<p><code>rake deploy</code> copy the generated files into _deploy/, add them to git, commit and push them up to the master branch.
+I&rsquo;m using github, more on that here: <a href="http://octopress.org/docs/deploying/github/">http://octopress.org/docs/deploying/github/</a></p>
+
+<h2>Repeat</h2>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Ready for blogging]]></title>
