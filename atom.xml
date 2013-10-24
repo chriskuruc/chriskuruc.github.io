@@ -4,7 +4,7 @@
   <title><![CDATA[Read Me, Maybe]]></title>
   <link href="http://chriskuruc.github.io/atom.xml" rel="self"/>
   <link href="http://chriskuruc.github.io/"/>
-  <updated>2013-10-23T15:15:56-04:00</updated>
+  <updated>2013-10-24T14:20:50-04:00</updated>
   <id>http://chriskuruc.github.io/</id>
   <author>
     <name><![CDATA[Chris Kuruc]]></name>
@@ -14,17 +14,20 @@
 
   
   <entry>
+    
     <title type="html"><![CDATA[Working with Octopress]]></title>
     <link href="http://chriskuruc.github.io/blog/2013/10/23/working-with-octopress/"/>
+    
     <updated>2013-10-23T14:35:00-04:00</updated>
     <id>http://chriskuruc.github.io/blog/2013/10/23/working-with-octopress</id>
+    
     <content type="html"><![CDATA[<p>My work process.  And some pointers on where to get info on these things.  Pretty simple.</p>
 
 <ul>
 <li>Edit</li>
 <li>Generate</li>
 <li>Preview</li>
-<li>Commit it</li>
+<li>Commit</li>
 <li>Deploy</li>
 <li>Repeat&hellip;</li>
 </ul>
@@ -81,15 +84,20 @@ I&rsquo;m using github, more on that here: <a href="http://octopress.org/docs/de
 
 <h2>Repeat</h2>
 ]]></content>
+    
   </entry>
   
   <entry>
+    
     <title type="html"><![CDATA[Ready for blogging]]></title>
     <link href="http://chriskuruc.github.io/blog/2013/10/21/ready-for-blogging/"/>
+    
     <updated>2013-10-21T21:08:00-04:00</updated>
     <id>http://chriskuruc.github.io/blog/2013/10/21/ready-for-blogging</id>
+    
     <content type="html"><![CDATA[<p>Octopress is all set up and ready for blogging.  I&rsquo;m going to have to dig into what rake is actually doing, but for know some rote learning of commands seams to get me here.</p>
 ]]></content>
+    
   </entry>
   
 </feed>
